@@ -1,12 +1,25 @@
-import React from 'react'
+import React from "react";
+import image1 from "../../assets/img/golosinas1.jpg";
 
-const ItemListContainer = () => {
+export const ItemListContainer = ({ greeting }) => {
   return (
-    <div>
-
+    <div className="container">
+      <div className="row">
+        <div className="col-md-4">
+          <div className="card">
+            <img src={image1} alt="Golosinas" />
+            <div className="card-body">
+              <h4 className="card-title text-primary"> {greeting} </h4>
+              <p className="card-text text-secondary">
+                {" "}
+                lorem ipsum dolor sit am
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default ItemListContainer
-
+export default ItemListContainer;
