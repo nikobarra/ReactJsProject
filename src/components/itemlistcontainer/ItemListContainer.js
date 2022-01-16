@@ -15,7 +15,7 @@ export const ItemListContainer = ({ greeting }) => {
                 {" "}
                 lorem ipsum dolor sit am
               </p>
-              <ItemCount stock ={5} initial ={1}/>
+                            <ItemCount stock ={5} initial ={1}/>              
             </div>
           </div>
         </div>
