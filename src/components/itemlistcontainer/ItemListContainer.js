@@ -1,5 +1,6 @@
 import React from "react";
 import image1 from "../../assets/img/golosinas1.jpg";
+import ItemCount from "../ItemCount/ItemCount"
 
 export const ItemListContainer = ({ greeting }) => {
   return (
@@ -14,6 +15,7 @@ export const ItemListContainer = ({ greeting }) => {
                 {" "}
                 lorem ipsum dolor sit am
               </p>
+              <ItemCount stock ={5} initial ={1}/>
             </div>
           </div>
         </div>
