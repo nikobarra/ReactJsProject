@@ -1,0 +1,24 @@
+[
+    {
+"id":"1",
+        "title":"Item 1",
+        "description":"Bla bla bla",
+        "price":100,
+        "pictureurl":"https://media.istockphoto.com/photos/colorful-candies-background-picture-id674582668?s=612x612"
+    },
+    {
+"id":"2",
+        "title":"Item 2",
+        "description":"Bla bla bla con azucar",
+        "price":150,
+    "pictureurl":"https://media.istockphoto.com/photos/colorful-candies-background-picture-id674582668?s=612x612"
+    },
+    {
+"id":"3",
+        "title":"item 3",
+        "description":"bla bla bla bla bajas calorias ",
+        "price":210,
+    "pictureurl":"https://media.istockphoto.com/photos/colorful-candies-background-picture-id674582668?s=612x612"
+    }
+
+]
